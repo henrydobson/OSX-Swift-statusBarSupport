@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA9382B31C7242BB00DFE689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9382B21C7242BB00DFE689 /* AppDelegate.swift */; };
+		BA9382B51C7242BB00DFE689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9382B41C7242BB00DFE689 /* Assets.xcassets */; };
+		BA9382B81C7242BB00DFE689 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9382B61C7242BB00DFE689 /* MainMenu.xib */; };
+		BA9382C31C7242BB00DFE689 /* StatusBarSupportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9382C21C7242BB00DFE689 /* StatusBarSupportTests.swift */; };
+		BA9382CE1C7242BB00DFE689 /* StatusBarSupportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9382CD1C7242BB00DFE689 /* StatusBarSupportUITests.swift */; };
+		BA9382DC1C724CB600DFE689 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9382DB1C724CB600DFE689 /* StatusMenuController.swift */; };
+		BA9382E21C726FA600DFE689 /* MessageSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9382E11C726FA600DFE689 /* MessageSupport.swift */; };
+		BA9382E41C729CC500DFE689 /* StatusInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9382E31C729CC500DFE689 /* StatusInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA9382BF1C7242BB00DFE689 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA9382A71C7242BB00DFE689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA9382AE1C7242BB00DFE689;
+			remoteInfo = StatusBarPebbleITSupport;
+		};
+		BA9382CA1C7242BB00DFE689 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA9382A71C7242BB00DFE689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA9382AE1C7242BB00DFE689;
+			remoteInfo = StatusBarPebbleITSupport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA9382AF1C7242BB00DFE689 /* StatusBarSupport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatusBarSupport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9382B21C7242BB00DFE689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA9382B41C7242BB00DFE689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA9382B71C7242BB00DFE689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BA9382B91C7242BB00DFE689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9382BE1C7242BB00DFE689 /* StatusBarSupport.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatusBarSupport.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9382C21C7242BB00DFE689 /* StatusBarSupportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarSupportTests.swift; sourceTree = "<group>"; };
+		BA9382C41C7242BB00DFE689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9382C91C7242BB00DFE689 /* StatusBarSupport.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatusBarSupport.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9382CD1C7242BB00DFE689 /* StatusBarSupportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarSupportUITests.swift; sourceTree = "<group>"; };
+		BA9382CF1C7242BB00DFE689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9382DB1C724CB600DFE689 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		BA9382E11C726FA600DFE689 /* MessageSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageSupport.swift; sourceTree = "<group>"; };
+		BA9382E31C729CC500DFE689 /* StatusInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusInfo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA9382AC1C7242BB00DFE689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9382BB1C7242BB00DFE689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9382C61C7242BB00DFE689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA9382A61C7242BB00DFE689 = {
+			isa = PBXGroup;
+			children = (
+				BA9382B11C7242BB00DFE689 /* StatusBarSupport */,
+				BA9382C11C7242BB00DFE689 /* StatusBarSupportTests */,
+				BA9382CC1C7242BB00DFE689 /* StatusBarSupportUITests */,
+				BA9382B01C7242BB00DFE689 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA9382B01C7242BB00DFE689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA9382AF1C7242BB00DFE689 /* StatusBarSupport.app */,
+				BA9382BE1C7242BB00DFE689 /* StatusBarSupport.xctest */,
+				BA9382C91C7242BB00DFE689 /* StatusBarSupport.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA9382B11C7242BB00DFE689 /* StatusBarSupport */ = {
+			isa = PBXGroup;
+			children = (
+				BA9382B21C7242BB00DFE689 /* AppDelegate.swift */,
+				BA9382DB1C724CB600DFE689 /* StatusMenuController.swift */,
+				BA9382E11C726FA600DFE689 /* MessageSupport.swift */,
+				BA9382E31C729CC500DFE689 /* StatusInfo.swift */,
+				BA9382B41C7242BB00DFE689 /* Assets.xcassets */,
+				BA9382B61C7242BB00DFE689 /* MainMenu.xib */,
+				BA9382B91C7242BB00DFE689 /* Info.plist */,
+			);
+			name = StatusBarSupport;
+			path = StatusBarPebbleITSupport;
+			sourceTree = "<group>";
+		};
+		BA9382C11C7242BB00DFE689 /* StatusBarSupportTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA9382C21C7242BB00DFE689 /* StatusBarSupportTests.swift */,
+				BA9382C41C7242BB00DFE689 /* Info.plist */,
+			);
+			name = StatusBarSupportTests;
+			path = StatusBarPebbleITSupportTests;
+			sourceTree = "<group>";
+		};
+		BA9382CC1C7242BB00DFE689 /* StatusBarSupportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA9382CD1C7242BB00DFE689 /* StatusBarSupportUITests.swift */,
+				BA9382CF1C7242BB00DFE689 /* Info.plist */,
+			);
+			name = StatusBarSupportUITests;
+			path = StatusBarPebbleITSupportUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA9382AE1C7242BB00DFE689 /* StatusBarSupport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA9382D21C7242BB00DFE689 /* Build configuration list for PBXNativeTarget "StatusBarSupport" */;
+			buildPhases = (
+				BA9382AB1C7242BB00DFE689 /* Sources */,
+				BA9382AC1C7242BB00DFE689 /* Frameworks */,
+				BA9382AD1C7242BB00DFE689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StatusBarSupport;
+			productName = StatusBarPebbleITSupport;
+			productReference = BA9382AF1C7242BB00DFE689 /* StatusBarSupport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA9382BD1C7242BB00DFE689 /* StatusBarSupportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA9382D51C7242BB00DFE689 /* Build configuration list for PBXNativeTarget "StatusBarSupportTests" */;
+			buildPhases = (
+				BA9382BA1C7242BB00DFE689 /* Sources */,
+				BA9382BB1C7242BB00DFE689 /* Frameworks */,
+				BA9382BC1C7242BB00DFE689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA9382C01C7242BB00DFE689 /* PBXTargetDependency */,
+			);
+			name = StatusBarSupportTests;
+			productName = StatusBarPebbleITSupportTests;
+			productReference = BA9382BE1C7242BB00DFE689 /* StatusBarSupport.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA9382C81C7242BB00DFE689 /* StatusBarSupportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA9382D81C7242BB00DFE689 /* Build configuration list for PBXNativeTarget "StatusBarSupportUITests" */;
+			buildPhases = (
+				BA9382C51C7242BB00DFE689 /* Sources */,
+				BA9382C61C7242BB00DFE689 /* Frameworks */,
+				BA9382C71C7242BB00DFE689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA9382CB1C7242BB00DFE689 /* PBXTargetDependency */,
+			);
+			name = StatusBarSupportUITests;
+			productName = StatusBarPebbleITSupportUITests;
+			productReference = BA9382C91C7242BB00DFE689 /* StatusBarSupport.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA9382A71C7242BB00DFE689 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Henry Dobson";
+				TargetAttributes = {
+					BA9382AE1C7242BB00DFE689 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BA9382BD1C7242BB00DFE689 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BA9382AE1C7242BB00DFE689;
+					};
+					BA9382C81C7242BB00DFE689 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BA9382AE1C7242BB00DFE689;
+					};
+				};
+			};
+			buildConfigurationList = BA9382AA1C7242BB00DFE689 /* Build configuration list for PBXProject "StatusBarSupport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA9382A61C7242BB00DFE689;
+			productRefGroup = BA9382B01C7242BB00DFE689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA9382AE1C7242BB00DFE689 /* StatusBarSupport */,
+				BA9382BD1C7242BB00DFE689 /* StatusBarSupportTests */,
+				BA9382C81C7242BB00DFE689 /* StatusBarSupportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA9382AD1C7242BB00DFE689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9382B51C7242BB00DFE689 /* Assets.xcassets in Resources */,
+				BA9382B81C7242BB00DFE689 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9382BC1C7242BB00DFE689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9382C71C7242BB00DFE689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA9382AB1C7242BB00DFE689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9382DC1C724CB600DFE689 /* StatusMenuController.swift in Sources */,
+				BA9382E21C726FA600DFE689 /* MessageSupport.swift in Sources */,
+				BA9382B31C7242BB00DFE689 /* AppDelegate.swift in Sources */,
+				BA9382E41C729CC500DFE689 /* StatusInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9382BA1C7242BB00DFE689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9382C31C7242BB00DFE689 /* StatusBarSupportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9382C51C7242BB00DFE689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9382CE1C7242BB00DFE689 /* StatusBarSupportUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA9382C01C7242BB00DFE689 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA9382AE1C7242BB00DFE689 /* StatusBarSupport */;
+			targetProxy = BA9382BF1C7242BB00DFE689 /* PBXContainerItemProxy */;
+		};
+		BA9382CB1C7242BB00DFE689 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA9382AE1C7242BB00DFE689 /* StatusBarSupport */;
+			targetProxy = BA9382CA1C7242BB00DFE689 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA9382B61C7242BB00DFE689 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA9382B71C7242BB00DFE689 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA9382D01C7242BB00DFE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA9382D11C7242BB00DFE689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BA9382D31C7242BB00DFE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StatusBarPebbleITSupport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrydobson.statusBarSupport;
+				PRODUCT_NAME = StatusBarSupport;
+			};
+			name = Debug;
+		};
+		BA9382D41C7242BB00DFE689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StatusBarPebbleITSupport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrydobson.statusBarSupport;
+				PRODUCT_NAME = StatusBarSupport;
+			};
+			name = Release;
+		};
+		BA9382D61C7242BB00DFE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StatusBarPebbleITSupportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrydobson.StatusBarPebbleITSupportTests;
+				PRODUCT_NAME = StatusBarSupport;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StatusBarSupport.app/Contents/MacOS/StatusBarSupport";
+			};
+			name = Debug;
+		};
+		BA9382D71C7242BB00DFE689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StatusBarPebbleITSupportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrydobson.StatusBarPebbleITSupportTests;
+				PRODUCT_NAME = StatusBarSupport;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StatusBarSupport.app/Contents/MacOS/StatusBarSupport";
+			};
+			name = Release;
+		};
+		BA9382D91C7242BB00DFE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StatusBarPebbleITSupportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrydobson.StatusBarPebbleITSupportUITests;
+				PRODUCT_NAME = StatusBarSupport;
+				TEST_TARGET_NAME = StatusBarPebbleITSupport;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BA9382DA1C7242BB00DFE689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StatusBarPebbleITSupportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrydobson.StatusBarPebbleITSupportUITests;
+				PRODUCT_NAME = StatusBarSupport;
+				TEST_TARGET_NAME = StatusBarPebbleITSupport;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA9382AA1C7242BB00DFE689 /* Build configuration list for PBXProject "StatusBarSupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9382D01C7242BB00DFE689 /* Debug */,
+				BA9382D11C7242BB00DFE689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA9382D21C7242BB00DFE689 /* Build configuration list for PBXNativeTarget "StatusBarSupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9382D31C7242BB00DFE689 /* Debug */,
+				BA9382D41C7242BB00DFE689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA9382D51C7242BB00DFE689 /* Build configuration list for PBXNativeTarget "StatusBarSupportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9382D61C7242BB00DFE689 /* Debug */,
+				BA9382D71C7242BB00DFE689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA9382D81C7242BB00DFE689 /* Build configuration list for PBXNativeTarget "StatusBarSupportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9382D91C7242BB00DFE689 /* Debug */,
+				BA9382DA1C7242BB00DFE689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA9382A71C7242BB00DFE689 /* Project object */;
+}
