@@ -1,4 +1,4 @@
-# OSX-Swift-statusBarSupport
+# OSX_Swift_StatusBarSupportApp
 
 Help! action = call a URL with mailto scheme with useful system info
 from the device.
