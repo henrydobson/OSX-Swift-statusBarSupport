@@ -35,15 +35,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BA9382AF1C7242BB00DFE689 /* StatusBarSupport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatusBarSupport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8CEA011CA2EC2C00C5342C /* StatusBarSupport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatusBarSupport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8CEA021CA2EC2C00C5342C /* StatusBarSupport.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatusBarSupport.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8CEA031CA2EC2C00C5342C /* StatusBarSupport.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatusBarSupport.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9382B21C7242BB00DFE689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA9382B41C7242BB00DFE689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA9382B71C7242BB00DFE689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		BA9382B91C7242BB00DFE689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA9382BE1C7242BB00DFE689 /* StatusBarSupport.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatusBarSupport.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9382C21C7242BB00DFE689 /* StatusBarSupportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarSupportTests.swift; sourceTree = "<group>"; };
 		BA9382C41C7242BB00DFE689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA9382C91C7242BB00DFE689 /* StatusBarSupport.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatusBarSupport.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9382CD1C7242BB00DFE689 /* StatusBarSupportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarSupportUITests.swift; sourceTree = "<group>"; };
 		BA9382CF1C7242BB00DFE689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA9382DB1C724CB600DFE689 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
@@ -82,18 +82,10 @@
 				BA9382B11C7242BB00DFE689 /* StatusBarSupport */,
 				BA9382C11C7242BB00DFE689 /* StatusBarSupportTests */,
 				BA9382CC1C7242BB00DFE689 /* StatusBarSupportUITests */,
-				BA9382B01C7242BB00DFE689 /* Products */,
+				BA8CEA011CA2EC2C00C5342C /* StatusBarSupport.app */,
+				BA8CEA021CA2EC2C00C5342C /* StatusBarSupport.xctest */,
+				BA8CEA031CA2EC2C00C5342C /* StatusBarSupport.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		BA9382B01C7242BB00DFE689 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BA9382AF1C7242BB00DFE689 /* StatusBarSupport.app */,
-				BA9382BE1C7242BB00DFE689 /* StatusBarSupport.xctest */,
-				BA9382C91C7242BB00DFE689 /* StatusBarSupport.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		BA9382B11C7242BB00DFE689 /* StatusBarSupport */ = {
@@ -107,8 +99,7 @@
 				BA9382B61C7242BB00DFE689 /* MainMenu.xib */,
 				BA9382B91C7242BB00DFE689 /* Info.plist */,
 			);
-			name = StatusBarSupport;
-			path = StatusBarPebbleITSupport;
+			path = StatusBarSupport;
 			sourceTree = "<group>";
 		};
 		BA9382C11C7242BB00DFE689 /* StatusBarSupportTests */ = {
@@ -117,8 +108,7 @@
 				BA9382C21C7242BB00DFE689 /* StatusBarSupportTests.swift */,
 				BA9382C41C7242BB00DFE689 /* Info.plist */,
 			);
-			name = StatusBarSupportTests;
-			path = StatusBarPebbleITSupportTests;
+			path = StatusBarSupportTests;
 			sourceTree = "<group>";
 		};
 		BA9382CC1C7242BB00DFE689 /* StatusBarSupportUITests */ = {
@@ -127,8 +117,7 @@
 				BA9382CD1C7242BB00DFE689 /* StatusBarSupportUITests.swift */,
 				BA9382CF1C7242BB00DFE689 /* Info.plist */,
 			);
-			name = StatusBarSupportUITests;
-			path = StatusBarPebbleITSupportUITests;
+			path = StatusBarSupportUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +137,7 @@
 			);
 			name = StatusBarSupport;
 			productName = StatusBarPebbleITSupport;
-			productReference = BA9382AF1C7242BB00DFE689 /* StatusBarSupport.app */;
+			productReference = BA8CEA011CA2EC2C00C5342C /* StatusBarSupport.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BA9382BD1C7242BB00DFE689 /* StatusBarSupportTests */ = {
@@ -166,7 +155,7 @@
 			);
 			name = StatusBarSupportTests;
 			productName = StatusBarPebbleITSupportTests;
-			productReference = BA9382BE1C7242BB00DFE689 /* StatusBarSupport.xctest */;
+			productReference = BA8CEA021CA2EC2C00C5342C /* StatusBarSupport.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		BA9382C81C7242BB00DFE689 /* StatusBarSupportUITests */ = {
@@ -184,7 +173,7 @@
 			);
 			name = StatusBarSupportUITests;
 			productName = StatusBarPebbleITSupportUITests;
-			productReference = BA9382C91C7242BB00DFE689 /* StatusBarSupport.xctest */;
+			productReference = BA8CEA031CA2EC2C00C5342C /* StatusBarSupport.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +208,7 @@
 				Base,
 			);
 			mainGroup = BA9382A61C7242BB00DFE689;
-			productRefGroup = BA9382B01C7242BB00DFE689 /* Products */;
+			productRefGroup = BA9382A61C7242BB00DFE689;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -396,7 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = StatusBarPebbleITSupport/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/StatusBarSupport/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.henrydobson.statusBarSupport;
 				PRODUCT_NAME = StatusBarSupport;
@@ -408,7 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = StatusBarPebbleITSupport/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/StatusBarSupport/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.henrydobson.statusBarSupport;
 				PRODUCT_NAME = StatusBarSupport;
